@@ -15,6 +15,15 @@
   padding: 60px 0 60px 0;
 }
 
+#hand {
+  position: relative;
+  width: 90%;
+  padding: 100px auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 #header-img {
   width: 150px;
   margin-left: 50px;
@@ -26,12 +35,19 @@
   padding-right: 0;
 }
 
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
 #video {
   display: block;
   text-align: center;
   width: 100%;
   padding-top: 50px;
 }
+
+
 
 .feature {
   width: 600px;
@@ -49,6 +65,12 @@
 .form-group {
   padding-top: 30px;
 }
+
+.inline-block {
+  display: inline-block;
+  margin: 0 auto;
+}
+
 
 .techno-button {
   background-color: #d65a31;
@@ -103,6 +125,10 @@
 
 .nav-link {
   color: #eeeeee;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
 
 header {
