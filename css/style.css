@@ -47,7 +47,13 @@
   padding-top: 50px;
 }
 
+.cb {
+  background-color: #eeeeee;
+}
 
+.ch {
+  background-color: #d65a31;
+}
 
 .feature {
   width: 600px;
