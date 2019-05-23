@@ -72,6 +72,11 @@
   padding-top: 30px;
 }
 
+.footerTable {
+  width: 100px;
+  margin: 0 auto;
+}
+
 .inline-block {
   display: inline-block;
   margin: 0 auto;
@@ -146,6 +151,20 @@
   margin-right: auto;
 }
 
+footer {
+  background-color: #eeeeee;
+  height: 100px;
+  color: grey;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #222831;
+  font-family: Kanit;
+  font-size: 1.3rem;
+}
+
 header {
   background-color: #222831;
   color: #ae1720;
@@ -179,4 +198,8 @@ nav li{
 nav ul {
   position: absolute;
   right: 100px;
+}
+
+td {
+  padding: 20px 15px 5px 15px;
 }
