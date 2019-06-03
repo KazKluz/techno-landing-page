@@ -14,24 +14,20 @@
 <body>
 
   <header id="header">
-    <div class="" id="nomargin">
-      <nav class="navbar navbar-expand-lg  bg-dark">
-        <a  class="navbar-brand" href="#">
-          <img id="header-img" src="images/logo.PNG" alt="logo" >
-        </a>
+      <nav id="nav-bar" class="navbar navbar-expand-lg  bg-dark">
+          <img id="header-img" src="http://www.top100techno.com/logo.PNG" alt="logo" >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="">Features</a>
+            <a class="nav-link" href="#features-section">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">How It works</a>
+            <a class="nav-link" href="#videoSection">How It works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Pricing</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
           </li>
         </ul>
       </nav>
-    </div>
   </header>
 
 <!-- end of header  -->
@@ -41,12 +37,12 @@
 
     <div class="" id="form-section">
       <h3>Your only music streaming service</h3>
-      <form action="">
+      <form id="form" action="https://www.freecodecamp.com/email-submit" >
         <div class="form-group">
-          <input type="email" class="form-control" placeholder="Enter your email adress">
+          <input id="email" type="email" name="email" class="form-control" placeholder="Enter your email adress">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-        <button type="submit" class="myButton">Get started</button>
+        <input id="submit" type="submit" value="Get started" class="myButton"></input>
       </form>
     </div>
 
@@ -85,9 +81,9 @@
 
     <div id="videoSection">
 
-       <div id="video">
+       <div id="theVideo">
 
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/TWPFrWojYQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TWPFrWojYQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
        </div>
 
@@ -96,38 +92,7 @@
       <!-- pricing section -->
 
     <div id="pricing">
-      <!-- <div id="hand" class="container row card-deck">
-        <div class="col col-3 card inline-block">
-          <div class="card-header">
-            Featured
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card col col-3 inline-block">
-          <div class="card-header">
-            Featured
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="card col col-3 inline-block">
-          <div class="card-header">
-            Featured
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div> -->
+
       <div class="centering">
         <div class="card-deck">
           <div class="pricing-column col col-lg-4 col-md-6">
